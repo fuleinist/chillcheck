@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>chillcheck - will it crop here?</title>
+<meta name="description" content="Count winter chill at any address, then rank the fruit varieties that still crop in 2050." />
+<link rel="stylesheet" href="/static/styles.css" />
+<link rel="icon" href="/static/assets/logo.png" type="image/png" />
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <div class="brand">
+      <img src="/static/assets/logo.png" alt="chillcheck logo" width="56" height="56" />
+      <div>
+        <h1>chillcheck</h1>
+        <p class="tagline">Count winter chill at any address. Then rank the varieties that still crop in 2050.</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <form id="query" class="query" autocomplete="off">
+    <div class="field grow">
+      <label for="place">Place or postcode</label>
+      <input id="place" name="place" type="text" placeholder="Orange NSW" aria-describedby="place-hint" />
+      <span id="place-hint" class="hint">Town, suburb or postcode. Try "Huonville TAS".</span>
+    </div>
+    <div class="field">
+      <label for="years">Past seasons</label>
+      <select id="years" name="years">
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="30" selected>30</option>
+        <option value="40">40</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="crops">Crop</label>
+      <select id="crops" name="crops">
+        <option value="">All crops</option>
+      </select>
+    </div>
+    <div class="field">
+      <button type="submit" id="run">Check chill</button>
+    </div>
+  </form>
+
+  <p id="status" class="status" role="status" aria-live="polite"></p>
+
+  <section id="results" class="results" hidden>
+    <div class="place-line">
+      <h2 id="place-name">-</h2>
+      <p id="place-meta" class="meta"></p>
+    </div>
+
+    <div class="cards">
+      <article class="card">
+        <h3>Baseline chill</h3>
+        <p class="big" id="card-base">-</p>
+        <p class="unit">chill portions</p>
+        <p class="foot" id="card-base-foot"></p>
+      </article>
+      <article class="card">
+        <h3>Recent 10 seasons</h3>
+        <p class="big" id="card-recent">-</p>
+        <p class="unit">chill portions</p>
+        <p class="foot" id="card-recent-foot"></p>
+      </article>
+      <article class="card">
+        <h3>2050 projection</h3>
+        <p class="big" id="card-future">-</p>
+        <p class="unit">chill portions</p>
+        <p class="foot" id="card-future-foot"></p>
+      </article>
+      <article class="card">
+        <h3>Trend</h3>
+        <p class="big" id="card-trend">-</p>
+        <p class="unit">portions per decade</p>
+        <p class="foot" id="card-trend-foot"></p>
+      </article>
+    </div>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Chill by season</h2>
+        <p class="meta" id="chart-meta"></p>
+      </div>
+      <div id="chart" class="chart"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Variety match</h2>
+        <p class="meta" id="table-meta"></p>
+      </div>
+      <div class="table-wrap">
+        <table id="varieties">
+          <thead>
+            <tr>
+              <th scope="col">Variety</th>
+              <th scope="col">Crop</th>
+              <th scope="col" class="num">Needs (h)</th>
+              <th scope="col" class="num">Chill now (h)</th>
+              <th scope="col">Now</th>
+              <th scope="col">2050</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Notes</h2>
+      <ul id="notes" class="notes"></ul>
+    </section>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Weather from Open-Meteo Archive and Climate APIs. Variety ranges from public extension tables. Check with a local nursery before you buy.</p>
+  </div>
+</footer>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

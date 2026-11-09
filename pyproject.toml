@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chillcheck"
+version = "0.1.0"
+description = "Winter chill calculator for fruit trees. Count chill at any address, then rank the varieties that still crop in 2050."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "chillcheck contributors" }]
+keywords = ["chill", "dormancy", "fruit", "climate", "open-data", "horticulture"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Scientific/Engineering :: Atmospheric Science",
+]
+
+dependencies = []
+
+[project.optional-dependencies]
+server = ["fastapi>=0.110", "uvicorn>=0.29"]
+dev = ["pytest>=8.0", "httpx>=0.27", "fastapi>=0.110"]
+
+[project.scripts]
+chillcheck = "chillcheck.cli:main"
+
+[tool.setuptools]
+packages = ["chillcheck"]
+
+[tool.setuptools.package-data]
+chillcheck = ["data/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

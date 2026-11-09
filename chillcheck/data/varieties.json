@@ -1,0 +1,274 @@
+[
+  {
+    "name": "Flordaprince",
+    "crop": "peach",
+    "chill_low": 100,
+    "chill_high": 150,
+    "source": "University of Florida low-chill breeding program",
+    "note": "Very low chill. Subtropical and coastal districts."
+  },
+  {
+    "name": "Tropic Beauty",
+    "crop": "peach",
+    "chill_low": 150,
+    "chill_high": 200,
+    "source": "University of Florida low-chill breeding program",
+    "note": "Low chill. Early season. Suits mild winters."
+  },
+  {
+    "name": "Anna",
+    "crop": "apple",
+    "chill_low": 200,
+    "chill_high": 300,
+    "source": "UC Davis chill tables; low-chill apple for warm climates",
+    "note": "Very low chill. Crops in coastal and subtropical districts."
+  },
+  {
+    "name": "Dorsett Golden",
+    "crop": "apple",
+    "chill_low": 250,
+    "chill_high": 350,
+    "source": "UC Davis chill tables",
+    "note": "Low chill. Pairs with Anna in warm districts."
+  },
+  {
+    "name": "Gala",
+    "crop": "apple",
+    "chill_low": 400,
+    "chill_high": 500,
+    "source": "UC Davis chill tables",
+    "note": "Mid chill. Reliable in most southern districts."
+  },
+  {
+    "name": "Fuji",
+    "crop": "apple",
+    "chill_low": 500,
+    "chill_high": 600,
+    "source": "UC Davis chill tables",
+    "note": "Needs a cooler winter than Gala."
+  },
+  {
+    "name": "Pink Lady",
+    "crop": "apple",
+    "chill_low": 500,
+    "chill_high": 600,
+    "source": "NSW DPI variety notes; UC Davis",
+    "note": "Late season. Needs heat to finish the crop."
+  },
+  {
+    "name": "Granny Smith",
+    "crop": "apple",
+    "chill_low": 600,
+    "chill_high": 700,
+    "source": "UC Davis chill tables",
+    "note": "Classic Australian variety. Needs a cold winter."
+  },
+  {
+    "name": "Red Delicious",
+    "crop": "apple",
+    "chill_low": 700,
+    "chill_high": 900,
+    "source": "UC Davis chill tables",
+    "note": "High chill. Marginal in warm districts."
+  },
+  {
+    "name": "Braeburn",
+    "crop": "apple",
+    "chill_low": 700,
+    "chill_high": 800,
+    "source": "UC Davis chill tables",
+    "note": "High chill. Suits cool tableland sites."
+  },
+  {
+    "name": "Honeycrisp",
+    "crop": "apple",
+    "chill_low": 800,
+    "chill_high": 1000,
+    "source": "University extension guides",
+    "note": "Very high chill. Cold districts only."
+  },
+  {
+    "name": "Hood",
+    "crop": "pear",
+    "chill_low": 400,
+    "chill_high": 500,
+    "source": "UC Davis chill tables",
+    "note": "Low chill pear. Southern coastal districts."
+  },
+  {
+    "name": "Kieffer",
+    "crop": "pear",
+    "chill_low": 350,
+    "chill_high": 450,
+    "source": "UC Davis chill tables",
+    "note": "Low chill. Gritty fruit. Often used for perry."
+  },
+  {
+    "name": "Packham's Triumph",
+    "crop": "pear",
+    "chill_low": 600,
+    "chill_high": 700,
+    "source": "NSW DPI variety notes",
+    "note": "Australian staple pear. Needs a cool winter."
+  },
+  {
+    "name": "Williams",
+    "crop": "pear",
+    "chill_low": 700,
+    "chill_high": 800,
+    "source": "UC Davis chill tables",
+    "note": "High chill. Also sold as Bartlett."
+  },
+  {
+    "name": "TropicSnow",
+    "crop": "peach",
+    "chill_low": 150,
+    "chill_high": 250,
+    "source": "UC Davis chill tables",
+    "note": "Very low chill. Subtropical districts only."
+  },
+  {
+    "name": "Flordaking",
+    "crop": "peach",
+    "chill_low": 350,
+    "chill_high": 450,
+    "source": "UC Davis chill tables",
+    "note": "Low chill. Early season."
+  },
+  {
+    "name": "Elberta",
+    "crop": "peach",
+    "chill_low": 750,
+    "chill_high": 850,
+    "source": "UC Davis chill tables",
+    "note": "High chill. Older variety."
+  },
+  {
+    "name": "Redhaven",
+    "crop": "peach",
+    "chill_low": 800,
+    "chill_high": 950,
+    "source": "UC Davis chill tables",
+    "note": "High chill. Cool districts only."
+  },
+  {
+    "name": "Independence",
+    "crop": "nectarine",
+    "chill_low": 400,
+    "chill_high": 500,
+    "source": "UC Davis chill tables",
+    "note": "Low to mid chill. Reliable in mild winters."
+  },
+  {
+    "name": "Fantasia",
+    "crop": "nectarine",
+    "chill_low": 450,
+    "chill_high": 550,
+    "source": "UC Davis chill tables",
+    "note": "Mid chill. Large fruit."
+  },
+  {
+    "name": "Lapins",
+    "crop": "cherry",
+    "chill_low": 400,
+    "chill_high": 500,
+    "source": "UC Davis chill tables",
+    "note": "Low chill cherry. Self fertile."
+  },
+  {
+    "name": "Stella",
+    "crop": "cherry",
+    "chill_low": 600,
+    "chill_high": 700,
+    "source": "UC Davis chill tables",
+    "note": "Mid chill. Self fertile."
+  },
+  {
+    "name": "Bing",
+    "crop": "cherry",
+    "chill_low": 700,
+    "chill_high": 900,
+    "source": "UC Davis chill tables",
+    "note": "High chill. Needs a pollen partner."
+  },
+  {
+    "name": "Sweetheart",
+    "crop": "cherry",
+    "chill_low": 700,
+    "chill_high": 800,
+    "source": "UC Davis chill tables",
+    "note": "High chill. Late season."
+  },
+  {
+    "name": "Santa Rosa",
+    "crop": "plum",
+    "chill_low": 300,
+    "chill_high": 400,
+    "source": "UC Davis chill tables",
+    "note": "Low chill. Widely planted in mild districts."
+  },
+  {
+    "name": "Satsuma",
+    "crop": "plum",
+    "chill_low": 300,
+    "chill_high": 400,
+    "source": "UC Davis chill tables",
+    "note": "Low chill. Blood plum."
+  },
+  {
+    "name": "Mariposa",
+    "crop": "plum",
+    "chill_low": 400,
+    "chill_high": 500,
+    "source": "UC Davis chill tables",
+    "note": "Mid chill. Large fruit."
+  },
+  {
+    "name": "Angelina",
+    "crop": "plum",
+    "chill_low": 500,
+    "chill_high": 600,
+    "source": "UC Davis chill tables",
+    "note": "Mid to high chill."
+  },
+  {
+    "name": "Blenheim",
+    "crop": "apricot",
+    "chill_low": 600,
+    "chill_high": 700,
+    "source": "UC Davis chill tables",
+    "note": "Mid chill. Early flowering. Frost risk."
+  },
+  {
+    "name": "Moorpark",
+    "crop": "apricot",
+    "chill_low": 600,
+    "chill_high": 700,
+    "source": "UC Davis chill tables",
+    "note": "Mid chill. Classic English variety."
+  },
+  {
+    "name": "Goldcot",
+    "crop": "apricot",
+    "chill_low": 700,
+    "chill_high": 800,
+    "source": "University extension guides",
+    "note": "High chill. Firm fruit. Good for preserving."
+  },
+  {
+    "name": "Nonpareil",
+    "crop": "almond",
+    "chill_low": 400,
+    "chill_high": 500,
+    "source": "UC Davis chill tables",
+    "note": "Mid chill. Main commercial almond."
+  },
+  {
+    "name": "Mission",
+    "crop": "almond",
+    "chill_low": 400,
+    "chill_high": 500,
+    "source": "UC Davis chill tables",
+    "note": "Mid chill. Hard shell."
+  }
+]
