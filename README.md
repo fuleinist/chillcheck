@@ -78,8 +78,8 @@ clears its requirement, now and in 2050.
 
 ## Measured results
 
-Both runs use the default settings: 30 seasons and the 2050 horizon. The archive
-was read on 10 November 2026.
+Both runs use the default settings: 30 seasons and the 2050 horizon. The tool
+read the archive on 10 November 2026.
 
 | Site | Elevation | Chill portions | Chill hours | Trend per decade | 2050 portions |
 | --- | --- | --- | --- | --- | --- |
